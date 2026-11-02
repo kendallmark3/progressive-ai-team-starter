@@ -1,0 +1,37 @@
+{
+  "_rule": "Written BEFORE running the tool. A case is USEFUL if: gate != FAIL, top-3 contains >=2 of expected_top, every expected_approval is flagged, every expected_waiting/defer is bucketed correctly, and no item is lost. Vague case (04) is USEFUL if it honestly flags its ranking as uncertain rather than inventing urgency.",
+  "today": "2026-11-02",
+  "cases": {
+    "01-architect-monday.md": {
+      "expected_top": ["approve the vendor PO", "Reference architecture review", "Send interview feedback"],
+      "expected_approval": ["Send interview feedback", "approve the vendor PO"],
+      "expected_waiting": ["waiting on InfoSec"],
+      "expected_defer": ["someday: write blog post"]
+    },
+    "02-home-errands.txt": {
+      "expected_top": ["renew truck registration", "call plumber", "buy birthday gift"],
+      "expected_approval": ["buy birthday gift"],
+      "expected_waiting": ["waiting for county"],
+      "expected_defer": ["maybe repaint the barn"]
+    },
+    "03-launch-week.md": {
+      "expected_top": ["Production outage runbook", "Customer webinar slides", "Publish release blog post"],
+      "expected_approval": ["Publish release blog post", "Delete old staging environment", "Book room for retro"],
+      "expected_waiting": ["Pending: legal review"],
+      "expected_defer": ["Nice to have: launch swag"]
+    },
+    "04-vague-list.md": {
+      "expected_top": [],
+      "expected_approval": [],
+      "expected_waiting": [],
+      "expected_defer": [],
+      "expect_uncertain_flag": true
+    },
+    "05-firefight.md": {
+      "expected_top": ["URGENT prod outage", "rotate leaked API key", "reply to exec thread"],
+      "expected_approval": ["reply to exec thread", "pay AWS invoice"],
+      "expected_waiting": ["blocked by vendor"],
+      "expected_defer": ["update team wiki eventually"]
+    }
+  }
+}
