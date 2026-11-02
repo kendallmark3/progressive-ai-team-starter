@@ -26,7 +26,7 @@ DEFER = ["someday", "maybe", "idea:", "nice to have", "eventually", "later", "if
 # Consequential actions: the system never performs these. It flags them as yours.
 CONSEQUENTIAL = ["send", "email", "post", "publish", "pay", "purchase", "buy", "sign",
                  "submit", "delete", "remove", "cancel", "wire", "transfer", "order",
-                 "book", "reply"]
+                 "book", "reply", "approve", "authorize"]
 
 BULLET = re.compile(r"^\s*(?:[-*+]|\d+[.)])?\s*(?:\[( |x|X)\])?\s*")
 ISO_DATE = re.compile(r"\b(\d{4}-\d{2}-\d{2})\b")

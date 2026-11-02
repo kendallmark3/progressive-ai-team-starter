@@ -47,6 +47,11 @@ class ReviewTests(unittest.TestCase):
         self.assertIn("pay invoice", appr)
         self.assertIn("send report to client", appr)
 
+    def test_approving_spend_is_consequential(self):
+        # Regression from viability run 1: "approve the vendor PO" was not gated.
+        out = review("- approve the vendor PO for GPU capacity\n", TODAY)
+        self.assertIn("approve the vendor PO", out.split("## Needs Your Approval")[1])
+
     def test_deterministic(self):
         raw = (ROOT / "examples" / "monday-work.md").read_text()
         self.assertEqual(review(raw, TODAY), review(raw, TODAY))

@@ -20,6 +20,8 @@ Personal productivity review — notes/tasks in, priorities and next actions out
 - Is the ranking useful on real notes?
 
 ## Last Result
+Viability (Intent 01): 4/5 held-out cases useful first try → VIABLE; approval-gate gap ("approve") fixed → 5/5. See viability/VIABILITY.md.
+
 3/3 example runs PASS WITH WARNINGS (all items verified; some ranks are guesses). One parse bug found and fixed.
 
 ## Feedback

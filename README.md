@@ -1,6 +1,7 @@
 # Progressive AI Team Starter
 
 > **V1 is built.** Job: *personal productivity review*. Start with [`RUNME.md`](RUNME.md) — `python3 run.py examples/monday-work.md`.
+> **Viability: VIABLE (4/5 held-out, pre-registered)** — [`viability/VIABILITY.md`](viability/VIABILITY.md)
 > Evidence: [`evidence/run-report.md`](evidence/run-report.md) · Checklist: [`evidence/acceptance-checklist.md`](evidence/acceptance-checklist.md)
 
 This starter turns the giant “AI team” prompt into a progressive, intent-driven structure. The goal is to let Claude build the implementation without requiring you to inspect code.
