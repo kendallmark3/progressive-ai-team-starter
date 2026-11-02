@@ -1,0 +1,5 @@
+- think about Q1 goals
+- tidy Downloads folder
+- look at that article Sam shared
+- learn SwiftUI animations
+- organize garage
