@@ -1,0 +1,9 @@
+{
+  "verdict": "PASS WITH WARNINGS",
+  "errors": [],
+  "warnings": [
+    "some rankings are guesses (no signal in source) \u2014 flagged to user"
+  ],
+  "items_checked": 5,
+  "open_items": 5
+}
